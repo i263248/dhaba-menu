@@ -73,3 +73,7 @@ button {
 button:hover {
     background-color: #5e2919;
 }
+
+.place-card button:hover {
+    background-color: #d35400;
+}
