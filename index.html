@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Dhaba Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Desi Dhaba</h1>
+        <p>Good Food • Good Mood</p>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="1.jpg" alt="Special Dish">
+        </section>
+
+        <section class="menu-table">
+            <h2>Our Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chicken Biryani</td>
+                        <td>Rice</td>
+                        <td>Rs. 450</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Karahi</td>
+                        <td>Main Course</td>
+                        <td>Rs. 600</td>
+                    </tr>
+                    <tr>
+                        <td>Naan</td>
+                        <td>Bread</td>
+                        <td>Rs. 100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="action">
+            <button onclick="placeOrder()">Order Now</button>
+        </section>
+    </main>
+
+    <script>
+        function placeOrder() {
+            console.log("Order button was clicked");
+            window.alert("Thank you! Your order has been placed.");
+        }
+    </script>
+</body>
+</html>
